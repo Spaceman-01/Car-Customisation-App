@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin-left: 10px;
+    color: #5a5a5a;
+    font-family: 'Lobster';
+    font-size: medium;
+}
+
+.main-container{
+    margin: 0;
+}
+
+.header-container{
+    position: absolute;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+.colour{
+    height: 70%;
+    width: 15%;
+    margin: auto;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.colour:hover{
+    border-color: white;
+}
+
+.black{
+    background-color: #505050;
+}
+
+.white{
+    background-color: #ededed;
+}
+
+.blue{
+    background-color: #002e73;
+}
+
+.red{
+    background-color: #db0404;
+}
+
+.instructions{
+    position: absolute;
+    top: 60px;
+}
+
+.canvas{
+    height: 100vh;
+    width: 100%;
+}
